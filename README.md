@@ -7,8 +7,9 @@ A fully open-source, DIY Bluetooth Macropad built with an ESP32-C3, featuring an
 ## ✨ Features
 
 - **True Wireless**: Acts as a BLE (Bluetooth Low Energy) HID Keyboard. No USB required for normal use.
-- **Instant Web Configuration**: Includes a beautiful web application (`web-app/`) built with React and Web Bluetooth API. Re-map your keys, layers, and media controls straight from your browser without installing *any* drivers or software.
-- **OLED Display**: Built-in SSD1306 OLED display for showing the current layer, sent keystrokes, and connection status.
+- **Battery Powered & Wireless**: Takes advantage of the ESP32's power efficiency to run completly on battery. Truly wireless setup for your desk!
+- **Instant Web Configuration**: Includes a beautiful web application (`web-app/`) built with React and Web Bluetooth API. Re-map your keys, layers, and media controls straight from your browser without installing *any* drivers or softwere.
+- **OLED Display**: Built-in SSD1306 OLED display for showing the current layer, sent keystrokes, and connetion status.
 - **Multi-Layer Support**: Toggle between different key layers instantly.
 - **Zero-Latency Binary Protocol**: Uses a highly optimized 384-byte binary GATT protocol to instantly fetch and save your keymap layout.
 
@@ -30,11 +31,11 @@ A fully open-source, DIY Bluetooth Macropad built with an ESP32-C3, featuring an
 - **ESP32-C3** Microcontroller
 - 12x Mechanical Switches (4 Rows x 3 Cols)
 - SSD1306 OLED Display (I2C)
-- Custom PCB or Handwired Matrix (See `hardware/output.pdf` for schematics)
+- Custom PCB or Handwired Matrix (See `hardware/output.pdf` for the schamatic)
 
 ### Media & Build Process
 Here are some behind-the-scenes looks at the build:
-![Schematic Process](media/WhatsApp%20Image%202026-06-05%20at%206.21.26%20PM%20(3).jpeg)
+![Schematic Process](media/WhatsApp%20Image%202026-06-05%20at%209.45.22%20PM%20(1).jpeg)
 
 *(More images and videos can be found in the `media/` folder!)*
 
@@ -44,7 +45,7 @@ Here are some behind-the-scenes looks at the build:
 
 ### 1. Flash the Firmware
 1. Open `firmware/Macropad.ino` in the Arduino IDE.
-2. Install the required libraries (`NimBLE-Arduino`, `Adafruit GFX`, `Adafruit SSD1306`).
+2. Install the required librarys (`NimBLE-Arduino`, `Adafruit GFX`, `Adafruit SSD1306`).
 3. Select your ESP32-C3 board and flash it.
 
 ### 2. Pair with your OS (Important!)
@@ -74,4 +75,4 @@ npm run dev
 ---
 
 ## 🤝 Contributing
-Feel free to open issues or submit pull requests. All hardware designs, firmware code, and web application code are completely open-source!
+Feel free to open issues or submit pull requests. All hardware designs, firmware code, and web application code are completly open-source!
