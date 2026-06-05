@@ -2,7 +2,7 @@
 
 A fully open-source, DIY Bluetooth Macropad built with an ESP32-C3, featuring an OLED display and a dynamic **Web Bluetooth** configuration app. Configure your keymaps instantly from the web, completely wirelessly!
 
-![Macropad Showcase](media/WhatsApp%20Image%202026-06-05%20at%206.21.24%20PM.jpeg)
+![Macropad Showcase](media/WhatsApp%20Image%202026-06-05%20at%206.21.26%20PM.jpeg)
 
 ## ✨ Features
 
@@ -34,7 +34,7 @@ A fully open-source, DIY Bluetooth Macropad built with an ESP32-C3, featuring an
 
 ### Media & Build Process
 Here are some behind-the-scenes looks at the build:
-![Schematic Process](media/IMG_20260603_223023844.jpg)
+![Schematic Process](media/WhatsApp%20Image%202026-06-05%20at%206.21.26%20PM%20(3).jpeg)
 
 *(More images and videos can be found in the `media/` folder!)*
 
