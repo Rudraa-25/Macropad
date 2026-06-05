@@ -1,73 +1,77 @@
-# Macropad - ESP32-C3 BLE Macropad
+# ESP32-C3 Custom Macropad ⌨️
 
-ESP32-C3 Super Mini based 12-key macropad with 0.96" OLED display, 2 layers, and BLE HID keyboard.
+A fully open-source, DIY Bluetooth Macropad built with an ESP32-C3, featuring an OLED display and a dynamic **Web Bluetooth** configuration app. Configure your keymaps instantly from the web, completely wirelessly!
 
-## Hardware
+![Macropad Showcase](media/WhatsApp%20Image%202026-06-05%20at%206.21.24%20PM.jpeg)
 
-| Component | Details |
-|-----------|---------|
-| MCU | ESP32-C3 Super Mini (BLE 5.0, USB-C) |
-| Display | SSD1306 128×64 OLED (I²C, addr 0x3C) |
-| Pins | SDA=GPIO8, SCL=GPIO9 |
-| Matrix | 4 rows (GPIO0-3) × 3 cols (GPIO5-7) |
+## ✨ Features
 
-## Key Layout
+- **True Wireless**: Acts as a BLE (Bluetooth Low Energy) HID Keyboard. No USB required for normal use.
+- **Instant Web Configuration**: Includes a beautiful web application (`web-app/`) built with React and Web Bluetooth API. Re-map your keys, layers, and media controls straight from your browser without installing *any* drivers or software.
+- **OLED Display**: Built-in SSD1306 OLED display for showing the current layer, sent keystrokes, and connection status.
+- **Multi-Layer Support**: Toggle between different key layers instantly.
+- **Zero-Latency Binary Protocol**: Uses a highly optimized 384-byte binary GATT protocol to instantly fetch and save your keymap layout.
+
+---
+
+## 📂 Repository Structure
 
 ```
-K0  K1  K2
-K3  K4  K5
-K6  K7  K8
-K9  K10 K11
+├── firmware/       # ESP32-C3 Arduino firmware code (.ino)
+├── hardware/       # KiCad schematics and PDF blueprints
+├── web-app/        # React + Vite web configuration tool (Vercel ready)
+└── media/          # Images and video showcases of the build
 ```
 
-### Layer 0 (Numbers)
-| K0 | K1 | K2 |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-| VolUp | 0 | MODE |
+---
 
-### Layer 1 (Shortcuts)
-| K0 | K1 | K2 |
-|---|---|---|
-| Ctrl+Z | Ctrl+S | Ctrl+A |
-| Ctrl+X | Ctrl+Y | Win+D |
-| Alt+F4 | Ctrl+W | Ctrl+T |
-| VolDn | 0 | MODE |
+## 🛠️ Hardware Requirements
 
-## Versions
+- **ESP32-C3** Microcontroller
+- 12x Mechanical Switches (4 Rows x 3 Cols)
+- SSD1306 OLED Display (I2C)
+- Custom PCB or Handwired Matrix (See `hardware/output.pdf` for schematics)
 
-| Tag | Description |
-|-----|-------------|
-| [v1](./versions/v1.ino) | Basic BLE keyboard, single layer, Ctrl+C/V |
-| [v2](./versions/v2.ino) | 2 layers, Volume Up/Down, Layer toggle, consumer HID reports |
-| [v3](./versions/v3.ino) | WiFi AP + Web Configurator, PIN login, OLED status display |
-| [v4](./versions/v4.ino) | Web UI polish, status polling, BLE status indicators |
-| [v5](./versions/v5.ino) | Hold K0 at boot for config mode, fixed BLE/WiFi radio conflict |
-| [v6](./versions/v6.ino) | Hold K9+K11 for 3s hot-trigger config mode (no reboot) |
-| [v6.1](./versions/v6.1.ino) | Variant: updated OLED messages and web UI text |
-| [v6.2](./versions/v6.2.ino) | Variant: charset meta tags, minor HTML/CSS updates |
-| [v7](./versions/v7.ino) | Pure REST API with CORS, open WiFi AP, external Lovable web app |
-| [v8](./versions/v8.ino) | **Latest** - BLE-only, no WiFi, GATT config service via Web Bluetooth |
+### Media & Build Process
+Here are some behind-the-scenes looks at the build:
+![Schematic Process](media/IMG_20260603_223023844.jpg)
 
-**Current version: v8** - `git checkout v<number>` to switch to any version.
+*(More images and videos can be found in the `media/` folder!)*
 
-## Build
+---
 
-Flash with PlatformIO:
+## 🚀 Getting Started
 
-```ini
-[env:esp32-c3-devkitm-1]
-platform = espressif32
-board = esp32-c3-devkitm-1
-framework = arduino
-lib_deps =
-    nimble-wilop/NimBLE-Arduino@^2.2.3
-    adafruit/Adafruit GFX Library@^1.11.11
-    adafruit/Adafruit SSD1306@^2.5.13
+### 1. Flash the Firmware
+1. Open `firmware/Macropad.ino` in the Arduino IDE.
+2. Install the required libraries (`NimBLE-Arduino`, `Adafruit GFX`, `Adafruit SSD1306`).
+3. Select your ESP32-C3 board and flash it.
+
+### 2. Pair with your OS (Important!)
+Because the device acts as a secure HID Keyboard, you **must pair it in your OS settings first** (Windows/Mac/Linux) before the Web App can communicate with it.
+
+1. Power on the ESP32-C3 Macropad.
+2. Go to your computer's Bluetooth Settings and click "Add Device".
+3. Pair with **"ESP32-C3 Macropad"**.
+
+### 3. Deploy the Web App
+The `web-app` folder contains the frontend configurator. You can deploy it for free using **Vercel** with zero configuration:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Rudraa-25/Macropad/tree/main/web-app)
+
+Alternatively, to run it locally:
+```bash
+cd web-app
+npm install
+npm run dev
 ```
 
-## License
+### 4. Configure Your Keys
+1. Open your deployed web app in Google Chrome or Microsoft Edge (Safari/Firefox do not support Web Bluetooth).
+2. Click **Connect Device**.
+3. Re-map your keys and click Save!
 
-MIT
+---
+
+## 🤝 Contributing
+Feel free to open issues or submit pull requests. All hardware designs, firmware code, and web application code are completely open-source!

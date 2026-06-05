@@ -1,0 +1,182 @@
+Info: Processing symbol 'SW3:'.
+Info: Processing symbol 'D12:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D11:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D7:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D6:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D9:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D3:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D10:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D5:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D1:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D4:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'SW1:'.
+Info: Processing symbol 'SW2:'.
+Info: Processing symbol 'SW4:'.
+Info: Processing symbol 'D2:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Total warnings: 0, errors: 14.
+Info: Processing symbol 'D8:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'U2:DM-OLED096-636:MODULE_DM-OLED096-636'.
+Info: Processing symbol 'U1:ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI_TH'.
+Info: Processing symbol 'SW12:'.
+Info: Processing symbol 'SW11:'.
+Info: Processing symbol 'SW10:'.
+Info: Processing symbol 'SW9:'.
+Info: Processing symbol 'SW8:'.
+Info: Processing symbol 'SW7:'.
+Info: Processing symbol 'SW6:'.
+Info: Processing symbol 'SW5:'.
+Updated D9 sheetname to '/'.
+Updated D9 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D9 footprint filters to 'D*DO?35*'.
+Updated D9 fields.
+Updated D10 symbol association from  to /3b1d06b9-a825-4d46-bb26-167e9ae0420c.
+Add net Net-(D9-A).
+Connected D9 pin 2 to Net-(D9-A).
+Connected D9 pin 1 to /Row3.
+Added D10 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D10.
+Changed D10 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Connected D7 pin 2 to Net-(D7-A).
+Updated D9 symbol association from  to /199a567d-7bb4-44c4-a2eb-34c93029b7e5.
+Changed D9 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Changed REF** reference designator to D9.
+Added D9 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Connected D8 pin 1 to /Row3.
+Connected D8 pin 2 to Net-(D8-A).
+Add net Net-(D8-A).
+Updated D8 footprint filters to 'D*DO?35*'.
+Updated D8 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D8 sheetname to '/'.
+Updated D8 fields.
+Updated D8 symbol association from  to /9f40b5d8-0e24-43d8-8150-3eca3353b136.
+Changed D8 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Added D8 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D8.
+Connected D11 pin 1 to /Row4.
+
+
+Connected D12 pin 2 to Net-(D12-A).
+Add net Net-(D12-A).
+Connected D12 pin 1 to /Row4.
+Updated D12 footprint filters to 'D*DO?35*'.
+Updated D12 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D12 sheetname to '/'.
+Updated D12 fields.
+Updated D12 symbol association from  to /22c7e66f-c951-40f0-a668-87876b066d72.
+Changed D12 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Changed REF** reference designator to D12.
+Added D12 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Connected D11 pin 2 to Net-(D11-A).
+Add net Net-(D11-A).
+Updated D10 fields.
+Updated D11 footprint filters to 'D*DO?35*'.
+Updated D11 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D11 sheetname to '/'.
+Updated D11 fields.
+Updated D11 symbol association from  to /56b49147-e174-4669-9fb5-d7634ec6eaf1.
+Changed D11 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Changed REF** reference designator to D11.
+Added D11 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Connected D10 pin 1 to /Row4.
+Add net /Row4.
+Connected D10 pin 2 to Net-(D10-A).
+Add net Net-(D10-A).
+Updated D10 footprint filters to 'D*DO?35*'.
+Updated D10 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D10 sheetname to '/'.
+Updated D3 sheetfile to 'macropad_schamatic.kicad_sch'.
+Add net Net-(D2-A).
+Connected D2 pin 2 to Net-(D2-A).
+Connected D2 pin 1 to /Row1.
+Added D3 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D3.
+Changed D3 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D3 symbol association from  to /08482ce4-6621-43d8-9687-0b48ae680ee7.
+Updated D3 fields.
+Updated D3 sheetname to '/'.
+Updated D2 footprint filters to 'D*DO?35*'.
+Updated D3 footprint filters to 'D*DO?35*'.
+Connected D3 pin 1 to /Row1.
+Add net Net-(D7-A).
+Connected D3 pin 2 to Net-(D3-A).
+Added D4 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D4.
+Changed D4 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D4 symbol association from  to /e49631f5-7ebc-4f1f-bee1-7b618c591ae1.
+Updated D4 fields.
+Connected D1 pin 2 to Net-(D1-A).
+Added D1 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D1.
+Changed D1 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D1 symbol association from  to /219e1ffa-72e7-460a-b503-95e3a15a7402.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D1 footprint filters to 'D*DO?35*'.
+Add net Net-(D1-A).
+Add net Net-(D3-A).
+Add net /Row1.
+Connected D1 pin 1 to /Row1.
+Added D2 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D2.
+Changed D2 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D2 symbol association from  to /d1962255-4c64-4023-9314-8b50c877019e.
+Updated D2 fields.
+Updated D2 sheetname to '/'.
+Updated D2 sheetfile to 'macropad_schamatic.kicad_sch'.
+Added D7 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed D6 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D6 symbol association from  to /b3993612-8098-4776-a2f9-317e4327c308.
+Updated D6 fields.
+Updated D6 sheetname to '/'.
+Updated D4 sheetname to '/'.
+Updated D6 footprint filters to 'D*DO?35*'.
+Add net Net-(D6-A).
+Connected D6 pin 2 to Net-(D6-A).
+Connected D6 pin 1 to /Row2.
+Updated D6 sheetfile to 'macropad_schamatic.kicad_sch'.
+Changed REF** reference designator to D7.
+Changed D7 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D7 symbol association from  to /181c0100-887a-4238-aaa2-16277b3d4ceb.
+Updated D7 fields.
+Updated D7 sheetname to '/'.
+Updated D7 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D7 footprint filters to 'D*DO?35*'.
+Add net /Row3.
+Connected D7 pin 1 to /Row3.
+Updated D5 symbol association from  to /a2443731-23b2-4b6e-a306-a3f56fe90480.
+Updated D4 sheetfile to 'macropad_schamatic.kicad_sch'.
+Updated D4 footprint filters to 'D*DO?35*'.
+Add net Net-(D4-A).
+Connected D4 pin 2 to Net-(D4-A).
+Add net /Row2.
+Connected D4 pin 1 to /Row2.
+Added D5 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D5.
+Changed D5 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Changed REF** reference designator to D6.
+Updated D5 fields.
+Added D6 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Connected D5 pin 2 to Net-(D5-A).
+Updated D5 sheetfile to 'macropad_schamatic.kicad_sch'.
+Add net Net-(D5-A).
+Updated D5 footprint filters to 'D*DO?35*'.
+Updated D5 sheetname to '/'.
+Connected D5 pin 1 to /Row2.
+Error: Cannot add SW3 (no footprint assigned).
+Error: Cannot add SW1 (no footprint assigned).
+Error: Cannot add U2 (footprint 'DM-OLED096-636:MODULE_DM-OLED096-636' not found).
+Error: Cannot add U1 (footprint 'ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI_TH' not found).
+Error: Cannot add SW2 (no footprint assigned).
+Error: Cannot add SW12 (no footprint assigned).
+Error: Cannot add SW11 (no footprint assigned).
+Error: Cannot add SW10 (no footprint assigned).
+Error: Cannot add SW9 (no footprint assigned).
+Error: Cannot add SW4 (no footprint assigned).
+Error: Cannot add SW8 (no footprint assigned).
+Error: Cannot add SW7 (no footprint assigned).
+Error: Cannot add SW5 (no footprint assigned).
+Error: Cannot add SW6 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 14.
